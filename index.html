@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NeuroRestorative Lab at CNR, Pisa. Focus on neural circuits, neurological disorders, motor function, and neurodegenerative diseases.">
+    <title>NeuroRestorative Lab - Spalletti Lab</title>
+    <style>
+        
+        /* General styling similar to the CNR page */
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        header {
+            background-color: #002147; /* CNR blue */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 150px;
+        }
+
+        header h1 {
+            color: #ffffff;
+            font-size: 2em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #002147;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        section h2 {
+            color: #002147; /* CNR blue */
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #002147;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        /* Team members style */
+        .team-member {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        
+        .team-member h3 {
+            color: #002147; /* CNR blue */
+            font-size: 1.4em;
+            margin-bottom: 5px;
+        }
+
+        .team-member p {
+            font-size: 1em;
+            color: #555555;
+        }
+
+        /* Research focus images and text */
+        .research-focus img {
+            margin-right: 20px;
+            max-width: 250px;
+            height: auto;
+            float: left;
+        }
+
+        .research-focus h3 {
+            color: #002147; /* CNR blue */
+            font-size: 1.4em; /* Match font size with team member titles */
+            margin-bottom: 10px;
+        }
+
+        /* Add margin for spacing between sections */
+        .team-member + .team-member, 
+        .research-focus + .research-focus {
+            margin-top: 40px; 
+        }
+	
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+   	 /* Adjustments for the Publications section */
+   	 #publications {
+        margin: 20px auto;
+        padding: 10px;
+        max-width: 920px;
+    	}
+
+    	#publications h2 {
+        font-size: 1.5em; /* Slightly smaller font size for the heading */
+    	}
+
+    	#publications ul {
+        padding-left: 20px; /* Maintain consistent padding */
+    	}
+
+   	 #publications ul li {
+        font-size: 1em; /* Slightly smaller font size for list items */
+        margin-bottom: 5px; /* Reduce margin between items */
+    	}
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+
+            section p {
+                font-size: 1em;
+            }
+
+            ul li {
+                font-size: 1em;
+            }
+
+            .research-focus img {
+                max-width: 100%;
+                height: auto;
+                margin: 0 auto;
+                float: none;
+                display: block;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Update logo source to logo.png -->
+    <img src="Logo3.png" alt="Lab Logo">
+    <h1>NeuroRestorative - Spalletti Lab</h1>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#research">Research Focus</a>
+    <a href="#team">Our Team</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>At the NeuroRestorative Lab we are committed to advancing our understanding of neural circuits and their involvement in neurological disorders and motor function. Our research is facilitated through the use of a robotic platform designed for motor rehabilitation. We employ a range of experimental techniques, including in vivo electrophysiology, behavioral assays, anatomical and molecular analyses, and advanced imaging methods. </p>
+    <p>Our multidisciplinary team, led by Dr. Cristina Spalletti, explores neuroplasticity and its potential in fostering recovery from neurological injuries. Our mission is to translate groundbreaking research into new therapeutic strategies that can improve patient outcomes.</p>
+    
+    <img src="Foto_lab_webpage.png" alt="Foto Lab" style="max-width: 900px;">
+</section>
+
+<section id="research" class="research-focus">
+    <h2>Our Research Focus</h2>
+
+    <div class="research-focus">
+        <h3>Restoring Forelimb Motor Function After Stroke</h3>
+        <img src="Graphical_abstract_STROKE.png" alt="Stroke" style="max-width: 265px;">
+        <p>Our research combines robotic rehabilitation with Gamma band stimulation to boost motor recovery after stroke. Using a photothrombotic mouse model, we observed changes in Gamma band power and parvalbumin-interneuron dynamics in the spared cortex, highlighting their role in recovery. Integrating optogenetics and non-invasive transcranial stimulation with rehabilitation led to significant forelimb motor improvements, suggesting a promising approach for enhancing stroke rehabilitation.</p>
+        <li>Vignozzi L. et al. 2024. <a href="https://doi.org/10.1101/2024.08.15.608060" target="_blank">Gamma Neuromodulation and Robotic Rehabilitation Boost Motor Recovery in Stroke Mice</a></li>
+    </div>
+
+    <div class="research-focus">
+        <h3>Elucidating Cortical Dynamics in Parkinson's Disease</h3>
+        <img src="Graphical_abstract_PD.png" alt="PD" style="max-width: 265px;">
+        <p>Parkinson's Disease is characterized by the progressive degeneration of dopaminergic neurons, leading to significant motor impairments. Our lab uses a mouse model to investigate the electrophysiological and functional changes in the motor cortex following dopamine depletion. By integrating advanced techniques such as in vivo wide-field imaging, in vivo electrophysiology, behavioral tests and biochemistry, we aim to unravel the cortical plasticity phenomena and identify novel therapeutic targets.</p>
+        <li>Minetti A. et al. 2024. <a href="In submission" target="_blank">Elucidating Cortical Dynamics in the 6-OHDA Mouse Model of Parkinson's Disease</a></li>
+    </div>
+
+    <div class="research-focus">
+        <h3>Enhancing Glioblastoma Cells Sensibilisation to Chemotherapy</h3>
+        <img src="Graphical_abstract_GBM.png" alt="GBM" style="max-width: 265px;">
+        <p>Glioblastoma multiforme is an aggressive brain tumor that invades neural tissue and disrupts function. Our research focuses on the molecular communication between glioblastoma stem cells and neurons, especially the role of voltage-gated sodium channels. Through in vitro studies and in vivo mouse models, we aim to disrupt glioblastoma stem cell-neuron interactions, inhibit tumor growth, and improve therapeutic strategies, providing new hope for patients with this challenging disease.</p>
+        <li>Giammello F. et al. 2024. <a href="https://doi.org/10.1186/s12964-024-01819-z" target="_blank">Modulating Voltage-Gated Sodium Channels to Enhance Differentiation and Sensitize Glioblastoma Cells to Chemotherapy</a></li>
+    </div>
+</section>
+
+<section id="team">
+    <h2>Meet Our Team</h2>
+    
+    <div class="team-member">
+        <h3>Dr. Cristina Spalletti</h3>
+        <img src="Spalletti.png" alt="Spalletti"  style="float: right; margin-left: 35px; margin-right: 20px; max-width: 150px;">
+        <p>Dr. Spalletti is the group leader with extensive experience in neurophysiology and neurodegenerative diseases. Her work is dedicated to uncovering the neural underpinnings of motor control and developing therapeutic approaches for conditions like stroke, Parkinson's Disease and glioblastoma. <br> Email: <a href="mailto:cristina.spalletti@in.cnr.it">cristina.spalletti@in.cnr.it</a></p>
+    </div>
+
+    
+    <div class="team-member">
+        <h3>Dr. Antea Minetti  </h3>
+        <img src="Minetti.png" alt="Minetti"  style="float: right; margin-left: 50px; margin-right: 20px; max-width: 150px;">
+        <p>Dr. Minetti is a post-doctoral researcher specializing in the use of viral vectors for neural circuit manipulation. Her research integrates advanced techniques such as electrophysiology, cellular and molecular biology, and imaging to explore neurodegenerative mechanisms and develop potential therapeutic strategies.  <br> Email: <a href="mailto:antea.minetti@in.cnr.it">antea.minetti@in.cnr.it</a></p>
+    </div>
+
+    <div class="team-member">
+        <h3>Alessandra Martello</h3>
+        <img src="Martello.png" alt="Martello"  style="float: right; margin-left: 5px; margin-right: 20px; max-width: 150px;">
+        <p>Alessandra is a PhD student at Scuola Superiore Sant'Anna, contributing to the Parkinson's Disease project. Her research specifically focuses on the heart-brain axis, exploring how neurodegeneration and disease progression in Parkinson's Disease influences cardiovascular health. <br> Email: <a href="mailto:alessandra.martello@santannapisa.it">alessandra.martello@santannapisa.it</a></p>
+    </div>
+
+    <div class="team-member">
+        <h3>Éléa Coulomb        </h3>
+        <img src="Coulomb.png" alt="Coulomb"  style="float: right; margin-left: 20px; margin-right: 20px; max-width: 150px;">
+        <p> Éléa is a PhD student at Scuola Normale Superiore, working on the Parkinson's Disease project. Her research is centered on the microglial response within the brain, investigating how these immune cells contribute to neuroinflammation and neuronal damage in Parkinson's Disease. <br> Email: <a href="mailto:elea.coulomb@sns.it">elea.coulomb@sns.it</a></p>
+    </div>
+</section>
+
+<section id="publications">
+    <h2>Publications</h2>
+    <ul>     
+        <li>Tantillo E. et al. 2020. <a href="https://doi.org/10.1016/j.nbd.2020.104942" target="_blank">Differential Roles of Pyramidal and GABAergic Neurons in Glioma</a></li>
+	<li>Spalletti C. et al. 2017. <a href="https://doi.org/10.7554/eLife.28662" target="_blank">Combining Robotic Training and Inactivation of the Healthy Hemisphere</a></li>
+	<li>Alia C. et al. 2017. <a href=" 11:76. https://doi.org/10.3389/fncel.2017.00076" target="_blank">Neuroplastic Changes Following Brain Ischemia and Their Contribution to Stroke Recovery</a></li>
+	<li>Alia C. et al. 2016. <a href="https://doi.org/10.1038/srep37823" target="_blank">Reducing GABAA-Mediated Inhibition Improves Forelimb Motor Function</a></li>
+	<li>Spalletti C. et al. 2013. <a href=" 28(2):188-96. https://doi.org/10.1177/1545968313506520" target="_blank">A Robotic System for Quantitative Assessment and Poststroke Training 	of Forelimb Retraction</a></li>
+    </ul>
+</section>
+
+<section id="contact">
+    <img src="Foto_CNR.png" alt="CNR" style="float: right; margin-left: 15px; margin-top: 18px; max-width: 300px;">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> CNR - Istituto di Neuroscienze, Via Moruzzi 1, 56124 Pisa, Italy</p>
+    <p><strong>Phone:</strong> +39 050 3153199</p>
+    <p><strong>Email:</strong> <a href="mailto:cristina.spalletti@in.cnr.it">cristina.spalletti@in.cnr.it</a></p>
+</section>
+
+<footer>
+   <img src="Logo CNR IN.png" alt="CNR logo" style="float: center; max-width: 450px;">    
+   <p>&copy; 2024 NeuroRestorative Lab | <a href="http://www.in.cnr.it" target="_blank">CNR - Istituto di Neuroscienze</a></p>
+    </footer>
+
+</body>
+</html>
