@@ -146,6 +146,12 @@
             margin-bottom: 5px; /* Reduce margin between items */
         }
 
+        /* Image resizing for mobile */
+        .lab-image {
+            max-width: 100%;
+            height: auto;
+        }
+
         /* Responsive layout */
         @media (max-width: 768px) {
             header h1 {
@@ -191,6 +197,12 @@
                 margin-bottom: 15px;
                 max-width: 120px;
             }
+
+            /* Adjusting the large image */
+            .lab-image {
+                max-width: 100%; /* Ensure it doesn't overflow on small screens */
+                height: auto;
+            }
         }
     </style>
 </head>
@@ -215,9 +227,10 @@
     <p>At the NeuroRestorative Lab we are committed to advancing our understanding of neural circuits and their involvement in neurological disorders and motor function. Our research is facilitated through the use of a robotic platform designed for motor rehabilitation. We employ a range of experimental techniques, including in vivo electrophysiology, behavioral assays, anatomical and molecular analyses, and advanced imaging methods.</p>
     <p>Our multidisciplinary team, led by Dr. Cristina Spalletti, explores neuroplasticity and its potential in fostering recovery from neurological injuries. Our mission is to translate groundbreaking research into new therapeutic strategies that can improve patient outcomes.</p>
     
-    <img src="Foto_lab_webpage.png" alt="Foto Lab" style="max-width: 900px;">
+    <!-- Resize the lab image to be responsive -->
+    <img src="Foto_lab_webpage.png" alt="Foto Lab" class="lab-image">
 </section>
-
+	
 <section id="research" class="research-focus">
     <h2>Our Research Focus</h2>
 
